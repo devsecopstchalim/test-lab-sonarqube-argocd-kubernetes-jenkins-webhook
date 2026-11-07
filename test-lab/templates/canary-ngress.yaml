@@ -8,7 +8,6 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/canary: "true"
     nginx.ingress.kubernetes.io/canary-weight: "{{ .Values.canary.weight }}"
-    nginx.ingress.kubernetes.io/canary-by-header: "{{ .Values.canary.header }}"
     nginx.ingress.kubernetes.io/canary-by-header-value: "always"
 spec:
   ingressClassName: {{ .Values.ingress.className }}
