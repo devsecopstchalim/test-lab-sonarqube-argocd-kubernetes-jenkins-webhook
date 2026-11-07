@@ -17,4 +17,4 @@ canary:
   header: X-Canary          
   image:
     repository: devsecopstchalim/python-sonarqube-demo
-    tag: "e5d0bc2"
+    tag: "bcdd852"
