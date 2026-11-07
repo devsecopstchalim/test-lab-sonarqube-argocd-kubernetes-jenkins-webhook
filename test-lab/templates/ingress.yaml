@@ -17,5 +17,5 @@ spec:
               service:
                 name: python-sonarqube-demo
                 port:
-                  name: http
+                  number:80
 {{- end }}

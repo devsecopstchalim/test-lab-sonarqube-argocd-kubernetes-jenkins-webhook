@@ -22,5 +22,5 @@ spec:
               service:
                 name: python-sonarqube-demo-canary
                 port:
-                  name: http
+                  number:80
 {{- end }}
