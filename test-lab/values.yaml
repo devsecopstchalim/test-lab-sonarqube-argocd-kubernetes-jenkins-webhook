@@ -4,3 +4,7 @@ backend:
     repository: devsecopstchalim/python-sonarqube-demo
     tag: "e5d0bc2"
 
+ingress:
+  enabled: true
+  className: nginx
+  host: demo.local

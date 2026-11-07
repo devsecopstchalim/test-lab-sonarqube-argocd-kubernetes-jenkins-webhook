@@ -5,7 +5,7 @@ metadata:
   labels:
     app: python-sonarqube-demo
 spec:
-  type: NodePort          
+  type: ClusterIP          
   selector:
     app: python-sonarqube-demo
   ports:
