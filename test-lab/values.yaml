@@ -8,3 +8,13 @@ ingress:
   enabled: true
   className: nginx
   host: demo.local
+
+
+canary:
+  enabled: true
+  replicas: 1
+  weight: 20               
+  header: X-Canary          
+  image:
+    repository: devsecopstchalim/python-sonarqube-demo
+    tag: "e5d0bc2"

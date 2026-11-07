@@ -1,0 +1,16 @@
+{{- if .Values.canary.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: python-sonarqube-demo-canary
+  labels:
+    app: python-sonarqube-demo-canary
+spec:
+  type: ClusterIP
+  selector:
+    app: python-sonarqube-demo-canary
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+{{- end }}
