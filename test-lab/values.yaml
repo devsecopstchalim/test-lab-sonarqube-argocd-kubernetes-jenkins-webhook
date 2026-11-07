@@ -1,0 +1,6 @@
+
+backend:
+  image: 
+    repository: devsecopstchalim/python-sonarqube-demo
+    tag: "ac2a8c9"
+
